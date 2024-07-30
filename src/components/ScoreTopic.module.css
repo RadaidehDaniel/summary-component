@@ -1,0 +1,43 @@
+.score-topic-container {
+  border-radius: 1.2rem;
+  padding: 1.7rem 1.6rem 1.6rem 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.score-topic-container > div {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.score-topic-container img {
+  inline-size: 2rem;
+  block-size: 2rem;
+}
+
+.topic {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.score {
+  font-size: 1.8rem;
+  color: #303b59;
+  font-weight: 700;
+}
+
+.score span {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+
+@media screen and (max-device-width: 655px) {
+  .topic {
+    font-size: 1.6rem;
+  }
+
+  .score {
+    font-size: 1.6rem;
+  }
+}

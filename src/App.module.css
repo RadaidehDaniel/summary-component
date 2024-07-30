@@ -1,0 +1,23 @@
+.app-container {
+  background-color: #fff;
+  max-inline-size: 73.6rem;
+  border-radius: 3.2rem;
+  margin: 2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-device-width: 640px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-device-width: 450px) {
+  .app-container {
+    margin: 0;
+    border-radius: 0;
+  }
+}

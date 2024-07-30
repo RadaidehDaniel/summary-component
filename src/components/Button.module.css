@@ -1,0 +1,17 @@
+button {
+  background-color: #303b59;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 1.7rem 3.2rem 1.6rem 3.2rem;
+  inline-size: 100%;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover,
+button:focus {
+  background: linear-gradient(#7755ff, #6943ff, #2f2ce9);
+  border: none;
+}
